@@ -1,0 +1,26 @@
+class Solution:
+    def splitArray(self, arr: List[int], m: int) -> int:
+        def canweAllocate(maxPages,arr):
+            no_of_pages_allocated=arr[0]
+            students=1
+            for pages in range(1,len(arr)):
+                if arr[pages]+no_of_pages_allocated<=maxPages:
+                    no_of_pages_allocated+=arr[pages]
+                else:
+                    no_of_pages_allocated=arr[pages]
+                    students+=1
+            return students
+        if(m>len(arr)):
+            return -1
+        low=max(arr)
+        high=sum(arr)
+        while(low<=high):
+            maxPages=(low+high)//2
+            if (canweAllocate(maxPages,arr)<=m):
+                high=maxPages-1
+            else:
+                low=maxPages+1
+                
+        return low
+
+        
