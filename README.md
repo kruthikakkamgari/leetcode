@@ -1,6 +1,3 @@
-Absolutely! Here's the **entire `README.md` content in one block** — ready to copy-paste directly into your GitHub repo:
-
----
 
 ````markdown
 # LEETCODE
@@ -145,5 +142,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Let me know if you'd like me to help generate the `LICENSE` file or set up the `conda.yml`.
+✅ Now just:
+- Replace `<your_env_name>` and `<your_main_script>.py` with your actual values
+- Save as `README.md`
+- Push to GitHub
+
+Let me know if you want help with `conda.yml` or `LICENSE` generation too!
 ```
