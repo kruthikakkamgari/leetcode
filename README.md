@@ -1,3 +1,6 @@
+Absolutely! Here's the **entire `README.md` content in one block** — ready to copy-paste directly into your GitHub repo:
+
+---
 
 ````markdown
 # LEETCODE
@@ -54,6 +57,8 @@ This project requires the following dependencies:
 - **Programming Language:** Python
 - **Package Manager:** Conda
 
+---
+
 ### Installation
 
 Build leetcode from the source and install dependencies:
@@ -69,8 +74,6 @@ Build leetcode from the source and install dependencies:
     ```
 
 3. **Install the dependencies:**
-
-    Using conda:
     ```bash
     conda env create -f conda.yml
     ```
@@ -86,7 +89,7 @@ conda activate <your_env_name>
 python <your_main_script>.py
 ````
 
-Replace `<your_env_name>` with your Conda environment name and `<your_main_script>` with your main Python file.
+> Replace `<your_env_name>` with your Conda environment name and `<your_main_script>` with your main Python file name.
 
 ---
 
@@ -140,5 +143,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ```
 
-Let me know if you'd like to auto-generate a `LICENSE` file or if you want to include a **Contributing** section too!
+---
+
+Let me know if you'd like me to help generate the `LICENSE` file or set up the `conda.yml`.
 ```
