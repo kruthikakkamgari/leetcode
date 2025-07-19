@@ -1,0 +1,27 @@
+from math import*
+class Solution:
+    def minEatingSpeed(self, piles: List[int], h: int) -> int:
+        low=1
+        high=max(piles)
+        while(low<=high):
+            noOfBananas=(low+high)//2
+            time=0
+            for banana in piles:
+                time+=ceil(banana/noOfBananas)
+            if time<=h:
+                high=noOfBananas-1
+            else:
+                low=noOfBananas+1
+        return low
+
+
+
+
+
+
+
+
+
+
+
+
